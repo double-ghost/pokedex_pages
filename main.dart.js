@@ -98675,60 +98675,62 @@ case 2:return A.k(o.at(-1),r)}})
 return A.m($async$f3,r)}}
 A.zO.prototype={
 kB(a){return this.aBh(a)},
-aBh(a8){var s=0,r=A.n(t.P5),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7
-var $async$kB=A.j(function(a9,b0){if(a9===1){o.push(b0)
-s=p}while(true)switch(s){case 0:a6=A.cn("https://pokedex-backend.double-ghost.deno.net/analyze-image")
+aBh(b0){var s=0,r=A.n(t.P5),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9
+var $async$kB=A.j(function(b1,b2){if(b1===1){o.push(b2)
+s=p}while(true)switch(s){case 0:a8=A.cn("https://pokedex-backend.double-ghost.deno.net/analyze-image")
 p=4
 s=7
-return A.f(a8.rr(),$async$kB)
-case 7:n=b0
-a0=a8.a
-if(a0==null){a0=a8.c
-a0===$&&A.a()
-a0=$.bcV().aIF(a0,n)
-a1=a0}else a1=a0
-m=a1==null?"image/jpeg":a1
+return A.f(b0.rr(),$async$kB)
+case 7:n=b2
+a1=b0.a
+if(a1==null){a1=b0.c
+a1===$&&A.a()
+a1=$.bcV().aIF(a1,n)
+a2=a1}else a2=a1
+m=a2==null?"image/jpeg":a2
 l=A.b5_(m)
-a0=n
-a2=l
-a3=A.b6p(a0,t.Cm)
-a0=J.b0(a0)
-a3=A.b1n(new A.l_(a3))
-if(a2==null)a2=A.b_4("application","octet-stream",null)
-k=new A.Xc("image",a0,a8.b,a2,a3)
-a4=A.bjK("POST",a6)
-a4.y.push(k)
-j=a4
-i=null
+a3=b0.b
+k=a3.length!==0?a3:"upload."+l.b
+a1=n
+a4=l
+a5=A.b6p(a1,t.Cm)
+a1=J.b0(a1)
+a5=A.b1n(new A.l_(a5))
+if(a4==null)a4=A.b_4("application","octet-stream",null)
+j=new A.Xc("image",a1,k,a4,a5)
+a6=A.bjK("POST",a8)
+a6.y.push(j)
+i=a6
 h=null
+g=null
 s=8
-return A.f(j.hG(),$async$kB)
-case 8:g=b0
-i=g.b
-h=g.w
+return A.f(i.hG(),$async$kB)
+case 8:f=b2
+h=f.b
+g=f.w
 s=9
-return A.f(B.T.aE7(h),$async$kB)
-case 9:f=b0
-if(!J.d(i,200)){e=new A.uK("["+A.h(i)+"] "+A.h(f),a6)
-q=new A.u(e,t.Cn)
+return A.f(B.T.aE7(g),$async$kB)
+case 9:e=b2
+if(!J.d(h,200)){d=new A.uK("["+A.h(h)+"] "+A.h(e),a8)
+q=new A.u(d,t.Cn)
 s=1
-break}d=B.bI.PP(f,null)
-a0=A.cj(d.i(0,"pokedex_number"))
-c=new A.pn(a0==null?null:B.d.b8(a0),null).aCP(n)
-q=new A.aP(c,t.gv)
+break}c=B.bI.PP(e,null)
+a1=A.cj(c.i(0,"pokedex_number"))
+b=new A.pn(a1==null?null:B.d.b8(a1),null).aCP(n)
+q=new A.aP(b,t.gv)
 s=1
 break
 p=2
 s=6
 break
 case 4:p=3
-a7=o.pop()
-a0=A.a1(a7)
-if(t.VI.b(a0)){b=a0
-q=new A.u(b,t.Cn)
+a9=o.pop()
+a1=A.a1(a9)
+if(t.VI.b(a1)){a=a1
+q=new A.u(a,t.Cn)
 s=1
-break}else{a=a0
-q=new A.u(new A.aL(a),t.Cn)
+break}else{a0=a1
+q=new A.u(new A.aL(a0),t.Cn)
 s=1
 break}s=6
 break
